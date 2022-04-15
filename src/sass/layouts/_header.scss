@@ -1,0 +1,68 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 18px;
+  line-height: 50px;
+  letter-spacing: -1px;
+
+  color: var(--header-navigation);
+
+  margin-right: 285px;
+}
+
+.navigation-list {
+  display: flex;
+  margin-right: 20px;
+}
+
+.navigation-list-item {
+  margin-right: 35px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.navigation-list-link {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -1px;
+}
+
+.active-link {
+  @extend .navigation-list-link;
+  font-weight: 400;
+}
+
+.before-photo {
+}
+
+.main-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 64px;
+
+  margin-left: 45px;
+
+  color: var(--header-title);
+
+  width: 485px;
+}
+
+.main-title__bold {
+  font-weight: 700;
+  font-size: 96px;
+}
