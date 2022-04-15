@@ -50,7 +50,30 @@
     line-height: 1.43;
     text-align: center;
     color: var(--main-text-color);
-    width: 320px;
+    width: 305px;
+    // &:not(:first-child) {
+    //     width: 311px;
+    // }
+}
+.metodo_text-motivation-two {
+    width: 311px;
+}
+
+
+.metodo_icon-eattime {
+    fill: none;
+    stroke: var(--accent-color);
+    width: 48px;
+    height: 48px;
+    //   margin-left: 340px;
+}
+
+.metodo_icon-plate {
+    fill: none;
+    stroke: var(--accent-color);
+    width: 48px;
+    height: 48px;
+    //   margin-left: 340px;
 }
 .metodo_text-motivation-list {
     display: flex;
@@ -71,6 +94,22 @@
 .metodo__picture {
     width: 869px;
 }
+
+.contacts_icon-arrow {
+    fill: none;
+    stroke: var(--accent-color);
+    width: 120.5px;
+    height: 120.5px;
+    //   margin-left: 340px;
+}
+
+.contacts_icon-plate {
+    fill: black;
+    stroke: var(--accent-color);
+    width: 120.5px;
+    height: 120.5px;
+}
+
 // --------------------------------------------------------------------
 
 .about__titles {
@@ -137,9 +176,3 @@
 //     right: 30px;
 //     transform: translateY(-50%);
 // }
-.contacts_icon-arrow {
-    fill: black;
-    stroke: var(--accent-color);
-    width: 50;
-    height: 50px;
-}
