@@ -8,7 +8,16 @@
     color: var(--section-title-color);
     margin-bottom: 25px;
     width: 500px;
+    position: relative;
+    // margin-right: 40px;
     
+}
+.metodo__title-icons {
+    position: absolute;
+    right: -360px;
+    top: -30px;
+    
+   
 }
 .metodo__text-btn {
     text-align: start;
@@ -51,6 +60,8 @@
     text-align: center;
     color: var(--main-text-color);
     width: 305px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     // &:not(:first-child) {
     //     width: 311px;
     // }
@@ -86,9 +97,10 @@
     background-image: url(../images/overlay.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: cover ;
     flex-grow: 1;
     text-align: center;
+    
 
 }
 .metodo__picture {
