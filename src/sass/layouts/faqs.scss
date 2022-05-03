@@ -1,26 +1,27 @@
 
-// .flex {
-//     display: flex;
-// }
 
 
 
-// .Button__list--item:not(:last-child) {
-//     margin-bottom: 80px;
-// }
+.Button__item-faqs:not(:last-child) {
+    // margin-right: 101px;
+    margin-right:52px;
+}
 
-// .Button {
-//     width: 263px;
-//     height: 65px;
+.Button-faqs{
+width: 450px;
+height: 75.92px;
 
-//     background: #1e6c63;
-//     border-radius: 10px;
+background: #2F7676;
+border-radius: 10px;
 
-//     &:focus {
-//         background: #858585;
-//     }
-// }
+    &:focus {
+        background: #858585;
+    }
+}
 
+.Button__list-faqs {
+    display: flex;
+}
 // .Button--text {
 //     font-family: 'AdonisCRegular';
 //     font-style: normal;
