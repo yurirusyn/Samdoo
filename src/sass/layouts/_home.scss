@@ -13,18 +13,20 @@
       url(../images/Home/back-2x.jpg);
   }
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .blur {
   backdrop-filter: blur(50px);
- }
+}
 .home__container {
   width: 1396px;
 
   padding-top: 240px;
   padding-bottom: 70px;
   // margin-left: 250px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home__container--text {
