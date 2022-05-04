@@ -9,6 +9,7 @@ const refs = {
   text3: document.querySelector('#text-3'),
   text4: document.querySelector('#text-4'),
 };
+console.log(refs.text4);
 
 refs.button1.focus();
 

@@ -39,14 +39,14 @@ background: conic-gradient(from 180deg at 50% 50%, #000F22 -23.76deg, #011122 18
 }
 
 .navigation-list-item {
-  margin-right: 39px;
+  margin-right: 100px;
   &:last-child {
     margin-right: 0;
   }
 }
 
 .navigation-list-link {
-  font-family: 'Fira Sans';
+font-family: 'CambriaMath';
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
@@ -77,4 +77,10 @@ color: #FFFFFF;
 .main-title__bold {
   font-weight: 700;
   font-size: 96px;
+}
+
+.active-header {
+  // color: rgb(184, 14, 14);
+  color: red;
+  font-weight: 800;
 }
