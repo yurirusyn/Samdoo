@@ -3,15 +3,15 @@
  * Все паршалы подключаются сюда.
  */
 
- @font-face {
-     font-family: AdonisCRegular;
-     src: url(../fonts/AdonisCRegular.otf);
- }
+@font-face {
+  font-family: AdonisCRegular;
+  src: url(../fonts/AdonisCRegular.otf);
+}
 
- @font-face {
-     font-family: CambriaMath;
-     src: url(../fonts/CambriaMath.ttc);
- }
+@font-face {
+  font-family: CambriaMath;
+  src: url(../fonts/CambriaMath.ttc);
+}
 // Стили для файла с примером HTML-фрагмента
 @import './base/commons';
 @import './base/reset';
@@ -29,3 +29,4 @@
 @import './layouts/contact';
 @import './layouts/footer';
 @import './layouts/slider';
+@import './components/to-the-top';
